@@ -1,6 +1,7 @@
 {
   "extends": [
     "next",
-    "prettier"
+    "prettier",
+    "plugin:security/recommended"
   ]
 }

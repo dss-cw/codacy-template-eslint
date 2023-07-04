@@ -10,5 +10,13 @@
   "rules": {
     "security/detect-object-injection": "warn",
     "security/detect-possible-csrf": "warn"
-  }
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "parserOptions": {
+        "project": "./tsconfig.json"
+      }
+    }
+  ]
 }
